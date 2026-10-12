@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport content="width="device-width, initial-scale=1.0">
+    <title>Welcome to Maple Street Bakery</title>
+</head>
+<body>
+<header>
+    <h1>Maple Street Bakery & Café</h1>
+    <nav><button type="button" class="menu" onclick="toggleMenu()">Menu &#9662;</button></nav>
+    </ul>
+    <ul id="menuitems">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">Pastries</a></li>
+      <li><a href="#coffees&Drinks">Coffees&Drinks</a></li>
+    </ul>
+</header>
+<main>
+    <section>
+        <h2>Pastries</h2>
+    </section>
+    <article>
+        <h3>Chocolate Chip Cookies</h3>
+        <p> Delicious freshly baked soft chocolate chip cookies</p>
+        <figure>
+            <img src="cookie.jpg" alt="A fresh chocolate chip cookie">
+            <figcaption>The target: crispy edges, soft center</figcaption>
+        </figure>
+    </article>
+    <article>
+        <h3>Blueberry Muffins</h3>
+        <p>Fluffy Muffins with freshly picked blueberries</p>
+        <figure>
+            <img src="muffin.jpg" alt="A tray of fresh blueberry muffins">
+            <figcaption>The target: crispy top, fluffy center</figcaption>
+        </figure>
+    </article>
+    <article>
+        <h3>Cheese Croissant</h3>
+        <p>Airy sweet pastry with a light cheesecake filling</p>
+        <figure>
+            <img src="croissant.jpg" alt="A tray of fresh baked croissants">
+            <figcaption>The target: fluffy outside, sweet filling</figcaption>
+        </figure>
+    </article>
+    <article>
+        <h3>Sourdough</h3>
+        <p>Healthy, crispy, delicious bread. Our most popular item!</p>
+        <figure>
+            <img src="sourdough.jpg" alt="A thick slice of sourdough">
+            <figcaption>The target: crispy edges, soft center</figcaption>
+        </figure>
+    </article>
+    <section>
+        <h2>Coffees&Drinks</h2>
+    </section>
+    <article>
+        <h3>Hot/Cold Latte</h3>
+        <p>Freshly brewed, delicious coffee: your choice of hot or cold</p>
+        <figure>
+            <img src="coffee.jpg" alt="Two cups of coffee standing side by side, one iced and one hot">
+            <figcaption>The target: delicious smell, better taste</figcaption>
+        </figure>
+    </article>
+    <article>
+        <h3>Tea</h3>
+        <p>We sell all different flavor teas</p>
+        <figure>
+            <img src="tea.jpg" alt="10 different flavors of tea options">
+            <figcaption>The target: soft drink, perfectly paired with our baked goods</figcaption>
+        </figure>
+    </article>
+</main>
+<form action="/submit" method="POST">
+    <fieldset>
+        <legend>Catering Inquiry Form</legend>
+        <label for="username">Name:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="tel">Phone Number:</label>
+        <input type="tel" id="tel" name="tel" required>
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments"></textarea> required>
+        <button type="submit">Submit Request</button>
+    </fieldset>
+</form>
+</body>
+<footer>© 2026 Maple Street Bakery & Café</footer>
+</html>
